@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background:linear-gradient(to bottom right, #33ccff 0%, #ff99cc 100%);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    text-align: center;
+    width: 60%;
+    border: 1px solid black;
+    margin-left: 20%;
+    border-radius: 6px;
+    background-color: crimson;
+    color: white;
+}
+.Main{
+    max-width: 700px;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    padding:25px 30px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 7px;
+}
+
+input[type="text"],input[type="email"],input[type="password"],
+input[type="email"]{
+    width: 30%;
+    margin-left:13%;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 6px;
+}
+input[type="email"]
+{
+    margin-top:23px;
+}
+.passs1 input[type="password"]{
+    margin-top: 23px;
+}
+input[type="email"]:hover{
+    border-color: aqua;
+}
+input[type="password"]:hover{
+    border-color: aqua;
+}
+input[type="text"]:hover{
+    border-color: aqua;
+}
+input[type="button"]{
+    padding: 10px;
+    width: 22%;
+    margin-top: 23px;
+    margin-left: 38%;
+    font-weight: bold;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-radius: 19px;
+    color: black;
+    background-color: yellow;
+    border: 1px solid black ;
+}
+input[type="button"]:hover{
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    
+}
+
+
