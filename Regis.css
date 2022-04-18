@@ -52,7 +52,7 @@ input[type="password"]:hover{
 input[type="text"]:hover{
     border-color: aqua;
 }
-input[type="button"]{
+input[type="submit"]{
     padding: 10px;
     width: 22%;
     margin-top: 23px;
@@ -65,7 +65,7 @@ input[type="button"]{
     background-color: yellow;
     border: 1px solid black ;
 }
-input[type="button"]:hover{
+input[type="submit"]:hover{
     background-color: green;
     color: white;
     cursor: pointer;
